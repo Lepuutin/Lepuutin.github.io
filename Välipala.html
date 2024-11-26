@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<!-- saved from url=(0037)https://snack.viikinnormaalikoulu.fi/ -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Välipala</title>
+    
+   
+    
+    <!-- adding Bootstrap 4 for UI components  -->
+    <link rel="stylesheet" href="./Välipala_files/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <a class="navbar-brand" href="https://snack.viikinnormaalikoulu.fi/">Välipala</a>
+      <!-- <button class="btn btn-primary" id="signIn" onclick="signIn()">Kirjaudu sisään </button> -->
+    </nav>
+    <div id="card-div" style="padding: 15px; height: calc(100vh - 56px);" class="col">
+      <div class="card" style="height: 100%; color: white; background-color: green;" id="kortti">
+        <div class="card-body">
+          <div class="d-flex align-items-center" id="spinner" style="display: none !important;">
+            <div class="spinner-border ms-auto text-primary m-3" role="status" aria-hidden="true"></div>
+            <strong>Ladataan, odota hetki...</strong>
+          </div>
+          <div id="coupon" class="d-flex flex-column" style="height: 100%;">
+            <h5 style="margin-bottom: 10px;" id="date">26.11.2024</h5>
+            <h5 style="margin-bottom: 50px;" id="displayName">Santeri Taavitsainen 7c</h5>
+            <h4 id="infoText">Välipala tällä viikolla:</h4>
+            <h1 id="snackDays" style="margin-top: 50px;">TI</h1>
+            <div class="d-flex align-items-center justify-content-center flex-grow-1">
+              <div class="spinner-border text-light ms-auto text-primary" style="height: 8rem; width: 8rem; border-width: 1rem; animation-duration: 2s;" role="status" aria-hidden="true"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- importing bootstrap.js and supporting js libraries -->
+
+  
+
+</body></html>
